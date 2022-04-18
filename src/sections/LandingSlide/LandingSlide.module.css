@@ -1,0 +1,132 @@
+.landing_slide {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(20, 24, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 24, 32, 1) 60%,
+    rgba(87, 184, 255, 1) 60%
+  );
+  overflow: hidden;
+  /* padding: 0 20px; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding-top: 10px;
+}
+.landing_slide_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing_slide_image_container {
+  padding: 20px;
+}
+.landing_slide_navlinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 70px;
+}
+.landing_slide_navlink {
+  margin: 0 20px;
+  font-size: 20px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bolder;
+  white-space: nowrap;
+  text-decoration: none;
+  list-style-type: none;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0, 3s ease-in-out;
+}
+.landing_slide_navlink.active {
+  color: #fdcf44;
+  text-decoration: underline 2px #fdcf44;
+  text-underline-offset: 4px;
+}
+.landing_slide_navlink:hover {
+  color: #fdcf44;
+  text-decoration: underline 2px #fdcf44;
+  text-underline-offset: 4px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 0 70px;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row1_head {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 30px;
+  color: #57b8ff;
+}
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row2_head {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 74px;
+  line-height: 93px;
+  text-align: left;
+  color: #ffffff;
+}
+.row3_head {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 10px;
+  color: #8c979f;
+}
+.btn {
+  all: unset;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #57b8ff;
+  color: #ffffff;
+  padding: 6px 20px;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #fdcf44;
+}
+.mid,
+.big,
+.small {
+  position: absolute;
+}
+.mid {
+  left: 628px;
+  bottom: -20px;
+  width: 15%;
+}
+.big {
+  left: 820px;
+  top: 88px;
+  width: 33%;
+}
+.small {
+  left: 1207px;
+  top: 104px;
+}
