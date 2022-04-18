@@ -1,0 +1,30 @@
+.latest-news-outer{
+    background-color: #FDCF44;
+    padding:30px;
+}
+.latest-news-heading{
+    font-family: 'Orbitron', sans-serif;
+    font-size:3rem;
+    margin:10px;
+}
+.latest-news-line-img{
+    margin: 0;
+}
+.latest-news-subhead{
+    font-family: 'Orbitron', sans-serif;
+    color: #61676A;
+}
+.latest-news-card-div{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:30px 60px;
+}
+h4{
+    font-family: 'Orbitron', sans-serif;
+    text-align: left;
+    margin:10px;
+}
+.latest-news-card-heading{
+    color: #FF6A1F;
+}

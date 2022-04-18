@@ -1,0 +1,61 @@
+.slide3-outer{ 
+    background-image: url("../../Assets/wallpaperflare\ 1.svg");
+    padding:20px 100px;
+    justify-content:center;
+}
+.slide3-first-head{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.slide3-head1{ 
+    color: #57B8FF
+}
+.slide3-main-heading{
+    font-family: 'Orbitron', sans-serif;
+    font-size:3rem;
+    margin:10px;
+    color: white;
+}
+/* .slide3-third-head{
+    
+} */
+.slide3-subheading{
+    font-family: 'Orbitron', sans-serif;
+    color: #8C979F;
+    text-align: center;
+}
+.slide3-card-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.slide3-card{ 
+    background-color: #E5E5E530;
+    position: relative;
+    /* width:40%; */
+    border-radius:20px;
+    margin:20px;
+    padding:20px;
+    /* opacity: 0.5; */
+}
+.slide3-card-first-div{
+    display: flex;
+    align-items: center;
+
+}
+.slide3-card-heading{
+    font-family: 'Orbitron', sans-serif;
+    font-size:2rem;
+    color: white;
+    opacity:1;
+}
+.slide3-card-sub-heading{
+    font-family: 'Orbitron', sans-serif;
+    font-size:1rem;
+    margin:0;
+    font-weight: normal;
+    color: white;
+    opacity: 1;
+}
