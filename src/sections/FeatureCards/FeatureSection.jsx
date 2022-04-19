@@ -5,23 +5,26 @@ import newCharacterImage from '../../Assets/HD-wallpaper-valorant-omen-games-ome
 import newMapImage from '../../Assets/fg.svg'
 import newFocusImage from '../../Assets/newFocusImage.svg'
 import controllerIcon from '../../Assets/game.svg'
+import compassIcon from '../../Assets/campus.svg'
+import aimIcon from '../../Assets/aim.svg'
+
 const FeatureSection = () => {
 
     const details = [
         {
             image: newCharacterImage,
-            title: "New Charactor",
+            title: "New Character",
             icon: controllerIcon
         },
         {
             image: newMapImage,
-            title: "New Charactor",
-            icon: controllerIcon
+            title: "New Battle Map",
+            icon: compassIcon
         },
         {
             image: newFocusImage,
-            title: "New Charactor",
-            icon: controllerIcon
+            title: "Auto Focus Add",
+            icon: aimIcon
         },
     ]
 
