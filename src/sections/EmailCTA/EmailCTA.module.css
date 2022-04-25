@@ -66,4 +66,10 @@
     background-color: #57B8FF;
     border: none;
     color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #FDCF44;
+    cursor: pointer;
 }
