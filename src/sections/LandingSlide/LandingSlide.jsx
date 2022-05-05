@@ -12,7 +12,7 @@ const LandingSlide = () => {
       <section className={classes.landing_slide}>
         <nav className={classes.landing_slide_navbar}>
           <div className={classes.landing_slide_image_container}>
-            <img className={classes.landing_slide_image} src={logo} />
+            <img className={classes.landing_slide_image} src={logo} alt='' />
           </div>
           <ul className={classes.landing_slide_navlinks}>
             <li
@@ -30,7 +30,7 @@ const LandingSlide = () => {
         <div className={classes.content}>
           <div className={classes.row1}>
             <div>
-              <img src={fire} />
+              <img src={fire} alt='' />
             </div>
             <p className={classes.row1_head}>
               A 5v5 character-based tactical shooter
@@ -48,9 +48,9 @@ const LandingSlide = () => {
           </div>
           <button className={classes.btn}>Play Here</button>
         </div>
-        <img src={mid} className={classes.mid} />
-        <img src={big} className={classes.big} />
-        <img src={small} className={classes.small} />
+        <img src={mid} className={classes.mid} alt='' />
+        <img src={big} className={classes.big} alt='' />
+        <img src={small} className={classes.small} alt='' />
       </section>
     </>
   );
